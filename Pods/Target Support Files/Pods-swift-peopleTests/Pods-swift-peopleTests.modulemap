@@ -1,0 +1,6 @@
+framework module Pods_swift_peopleTests {
+  umbrella header "Pods-swift-peopleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
