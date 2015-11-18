@@ -7,9 +7,8 @@ class Person {
     private(set) var ageInYears: Int?
     private(set) var skills = Set<String>()
     
-    var qualifiedTutor: Bool {
-        get { return skills.count >= 4 }
-    }
+    var qualifiedTutor: Bool { return skills.count >= 4 }
+    
     
     init(name: String, ageInYears: Int?) {
         self.name = name
@@ -56,7 +55,4 @@ class Person {
         skills.insert("Interface Builder")
     }
 }
-
-
-
 
