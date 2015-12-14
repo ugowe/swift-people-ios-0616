@@ -15,7 +15,7 @@
 		4DEE926A1BFBDA3700132675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE92681BFBDA3700132675 /* LaunchScreen.storyboard */; };
 		4DEE92751BFBDA3700132675 /* swift_peopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92741BFBDA3700132675 /* swift_peopleTests.swift */; };
 		4DEE92811BFCCC6F00132675 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92801BFCCC6F00132675 /* Person.swift */; };
-		4DEE92831BFCD27D00132675 /* Int+ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92821BFCD27D00132675 /* Int+ordinal.swift */; };
+		4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */; };
 		4DEE92851BFCD7AC00132675 /* PersonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92841BFCD7AC00132675 /* PersonSpec.swift */; };
 		4DEE92871BFCD7C100132675 /* Int+ordinalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92861BFCD7C100132675 /* Int+ordinalSpec.swift */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,7 @@
 		4DEE92741BFBDA3700132675 /* swift_peopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peopleTests.swift; sourceTree = "<group>"; };
 		4DEE92761BFBDA3700132675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DEE92801BFCCC6F00132675 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		4DEE92821BFCD27D00132675 /* Int+ordinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+ordinal.swift"; sourceTree = "<group>"; };
+		4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Ordinal.swift"; sourceTree = "<group>"; };
 		4DEE92841BFCD7AC00132675 /* PersonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSpec.swift; sourceTree = "<group>"; };
 		4DEE92861BFCD7C100132675 /* Int+ordinalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+ordinalSpec.swift"; sourceTree = "<group>"; };
 		4E2C00E39568F3F37EB139A7 /* Pods-swift-peopleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-peopleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-peopleTests/Pods-swift-peopleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				4DEE925F1BFBDA3700132675 /* AppDelegate.swift */,
-				4DEE92821BFCD27D00132675 /* Int+ordinal.swift */,
+				4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */,
 				4DEE92801BFCCC6F00132675 /* Person.swift */,
 				4DEE927F1BFCCC5000132675 /* Resources */,
 			);
@@ -295,7 +295,7 @@
 				4DEE92811BFCCC6F00132675 /* Person.swift in Sources */,
 				4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */,
 				4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */,
-				4DEE92831BFCD27D00132675 /* Int+ordinal.swift in Sources */,
+				4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
