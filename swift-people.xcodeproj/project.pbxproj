@@ -14,7 +14,6 @@
 		4DEE92671BFBDA3700132675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE92661BFBDA3700132675 /* Assets.xcassets */; };
 		4DEE926A1BFBDA3700132675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE92681BFBDA3700132675 /* LaunchScreen.storyboard */; };
 		4DEE92751BFBDA3700132675 /* swift_peopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92741BFBDA3700132675 /* swift_peopleTests.swift */; };
-		4DEE92811BFCCC6F00132675 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92801BFCCC6F00132675 /* Person.swift */; };
 		4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */; };
 		4DEE92851BFCD7AC00132675 /* PersonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92841BFCD7AC00132675 /* PersonSpec.swift */; };
 		4DEE92871BFCD7C100132675 /* Int+OrdinalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */; };
@@ -41,7 +40,6 @@
 		4DEE92701BFBDA3700132675 /* swift-peopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-peopleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEE92741BFBDA3700132675 /* swift_peopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_peopleTests.swift; sourceTree = "<group>"; };
 		4DEE92761BFBDA3700132675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DEE92801BFCCC6F00132675 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Ordinal.swift"; sourceTree = "<group>"; };
 		4DEE92841BFCD7AC00132675 /* PersonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSpec.swift; sourceTree = "<group>"; };
 		4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OrdinalSpec.swift"; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			children = (
 				4DEE925F1BFBDA3700132675 /* AppDelegate.swift */,
 				4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */,
-				4DEE92801BFCCC6F00132675 /* Person.swift */,
 				4DEE927F1BFCCC5000132675 /* Resources */,
 			);
 			path = "swift-people";
@@ -292,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEE92811BFCCC6F00132675 /* Person.swift in Sources */,
 				4DEE92621BFBDA3700132675 /* ViewController.swift in Sources */,
 				4DEE92601BFBDA3700132675 /* AppDelegate.swift in Sources */,
 				4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */,
