@@ -18,30 +18,30 @@ Open the `swift-people.xcworkspace` file.
 
 Generate a new Swift file for the `Person` class.
 
-Declare the `Person` class as a base class with four **readonly** properties:
+Declare the `Person` class with four **readonly** properties:
 
   * `name`, an immutable `String`,
   * `ageInYears`, a mutable `Int` optional,
-  * `skills`, a mutable empty `Array` of type `String`,
+  * `skills`, an empty mutable `Array` of `String`s,
   * `qualifiedTutor`, a calculated property of type `Bool` that, for now, simply returns `false`.
 
 ### II. Write the Initializers
 
-1. Write a designated initializer that provides coverage for the `name` and `ageInYears` properties. **Top-tip:** *Remember that* `ageInYears` *is an optional property.*
+1. Write a designated initializer that takes values for the `name` and `ageInYears` properties. **Top-tip:** *Remember that* `ageInYears` *is an optional property.*
 
-2. Write a convenience initializer that allows only an argument for `name` to be submitted. This should call the designated initializer while setting the `ageInYears` property to `nil` since no information was collected for it.
+2. Write a convenience initializer that takes an argument for `name`, but no `ageInYears`. This should call the designated initializer with a `nil` value for `ageInYears`, since no information was collected for it.
 
-3. Write a default initializer that calls the designated initializer to set the `name` property to `"John Doe"` and the `ageInYears` property to `nil`.
+3. Write a default initializer that calls the designated initializer to set the `name` property to `"John Doe"` and `ageInYears` to `nil`.
 
 ### III. `celebrateBirthday()`
 
-1. Review the provided method in the `Int+ordinal.swift` file. This contains an extension of the `Int` class that returns a two-letter string associated to the integer's pronunciation (called an "ordinal"). You will need to use this method to solve this challenge.
+1. Review the provided method in the `Int+Ordinal.swift` file. This contains an extension of the `Int` class that returns a two-letter string associated to the integer's pronunciation (called an "ordinal"). You will need to use this method to solve this challenge.
 
-2. Write a method named `celebrateBirthday()` that returns a `String`. This method should unwraps the `ageInYears` optional. If the optional contains `nil`, it should return a happy-birthday message with the person's name formatted like this for Jenny:
+2. Write a method named `celebrateBirthday()` that returns a `String`. If the `ageInYears` property contains `nil`, it should return a happy-birthday message with the person's name formatted like this for Jenny:
   * `HAPPY BIRTHDAY, JENNY!!!`  
   **Hint:** *Make sure to upcase the person's name.*
   
-3. However, if the optional contains an integer value (that is not `nil`), this method should add one to the `ageInYears` property, determine the ordinal for the property's new value, and then return a string that, for Mark's 30th birthday, would read:
+3. However, if `ageInYears` contains an integer value (not `nil`), this method should add one to the `ageInYears` property, determine the ordinal for the property's new value, and then return a string that, for Mark's 30th birthday, would read:
   * `HAPPY 30TH BIRTHDAY, MARK!!!`  
   **Hint:** *You will need to upcase both the ordinal and name.*
 
