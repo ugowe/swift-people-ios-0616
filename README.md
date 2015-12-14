@@ -29,7 +29,7 @@ Declare the `Person` class with four **readonly** properties:
 
 1. Write a designated initializer that takes values for the `name` and `ageInYears` properties. **Top-tip:** *Remember that* `ageInYears` *is an optional property.*
 
-2. Write a convenience initializer that takes an argument for `name`, but no `ageInYears`. This should call the designated initializer with a `nil` value for `ageInYears`, since no information was collected for it.
+2. Write a convenience initializer that takes an argument for `name`, but not `ageInYears`. This should call the designated initializer with a `nil` value for `ageInYears`, since no information was collected for it.
 
 3. Write a default initializer that calls the designated initializer to set the `name` property to `"John Doe"` and `ageInYears` to `nil`.
 
