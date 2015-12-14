@@ -17,7 +17,7 @@
 		4DEE92811BFCCC6F00132675 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92801BFCCC6F00132675 /* Person.swift */; };
 		4DEE92831BFCD27D00132675 /* Int+Ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */; };
 		4DEE92851BFCD7AC00132675 /* PersonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92841BFCD7AC00132675 /* PersonSpec.swift */; };
-		4DEE92871BFCD7C100132675 /* Int+ordinalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92861BFCD7C100132675 /* Int+ordinalSpec.swift */; };
+		4DEE92871BFCD7C100132675 /* Int+OrdinalSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		4DEE92801BFCCC6F00132675 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4DEE92821BFCD27D00132675 /* Int+Ordinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Ordinal.swift"; sourceTree = "<group>"; };
 		4DEE92841BFCD7AC00132675 /* PersonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSpec.swift; sourceTree = "<group>"; };
-		4DEE92861BFCD7C100132675 /* Int+ordinalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+ordinalSpec.swift"; sourceTree = "<group>"; };
+		4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OrdinalSpec.swift"; sourceTree = "<group>"; };
 		4E2C00E39568F3F37EB139A7 /* Pods-swift-peopleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-peopleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-peopleTests/Pods-swift-peopleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E10D4614E27C9C6081D6AEF4 /* Pods_swift_peopleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_peopleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01FE0B9CB606344137B1D3E /* Pods-swift-peopleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-peopleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-peopleTests/Pods-swift-peopleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		4DEE92731BFBDA3700132675 /* swift-peopleTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DEE92861BFCD7C100132675 /* Int+ordinalSpec.swift */,
+				4DEE92861BFCD7C100132675 /* Int+OrdinalSpec.swift */,
 				4DEE92841BFCD7AC00132675 /* PersonSpec.swift */,
 				4DEE92741BFBDA3700132675 /* swift_peopleTests.swift */,
 				4DEE92761BFBDA3700132675 /* Info.plist */,
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEE92751BFBDA3700132675 /* swift_peopleTests.swift in Sources */,
-				4DEE92871BFCD7C100132675 /* Int+ordinalSpec.swift in Sources */,
+				4DEE92871BFCD7C100132675 /* Int+OrdinalSpec.swift in Sources */,
 				4DEE92851BFCD7AC00132675 /* PersonSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

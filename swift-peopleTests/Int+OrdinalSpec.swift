@@ -1,4 +1,4 @@
-//  Int+ordinalSpec.swift
+//  Int+OrdinalSpec.swift
 
 import Quick
 import Nimble
@@ -6,7 +6,7 @@ import Nimble
 
 class IntOrdinalSpec: QuickSpec {
     override func spec() {
-        describe("Int+ordinal") {
+        describe("Int+Ordinal") {
             describe("ordinal") {
                 it("should return 'st' for 21") {
                     let twentyOne = 21
