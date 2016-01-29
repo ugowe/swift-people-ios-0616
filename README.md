@@ -69,4 +69,4 @@ Method Name              | Skill String
 We want to allow our experienced `Person`s to help out those who are just starting out. Make the `qualifiedTutor` calculated property return `true` if the person knows at least four (4) skills.  
 **Top-tip:** *Avoid using an* `if` *statement for this, remember that comparison operators return booleans.*
 
-<a href='https://learn.co/lessons/swift-people' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/swift-people' title='Swift People'>Swift People</a> on learn.co and start learning to code for free.
